@@ -1,0 +1,682 @@
+/* 
+font-family: 'Alata', sans-serif;
+font-family: 'Josefin Sans', sans-serif; 
+*/
+
+*,
+*::before,
+*::after {
+    
+    box-sizing: border-box;
+}
+
+body, h1, h2, h3, h4, p, figure, blockquote, dl, dd {
+    
+    margin: 0;
+}
+
+img, picture {
+
+    max-width: 100%;
+    display: block;
+}
+
+body {
+
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+}
+
+header {
+
+    background: url(./images/mobile/image-hero.jpg)no-repeat center /cover;
+    height: 650px;
+}
+
+.logo {
+
+    padding-top: 30px;
+    padding-left: 20px;
+    width: 170px;
+}
+
+h1 {
+
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif; 
+    color: white;
+    text-transform: uppercase;
+    border: 2px solid white;
+    width: 335px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 180px;
+    font-size: 42px;
+    padding: 20px;
+}
+
+h2 {
+
+    font-family: 'Josefin Sans', sans-serif; 
+    text-transform: uppercase;
+    font-size: 32px;
+    margin-top: 40px;
+    font-weight: 300;
+}
+
+p {
+
+    font-family: 'Alata', sans-serif;
+    color: hsl(0, 0%, 55%);
+    font-size: 15px;
+    width: 300px;
+    margin-left: 38px;
+    margin-top: 20px;
+    padding-bottom: 30px;
+}
+
+.casqueVr {
+
+    position: relative;
+    margin-top: 95px;
+    background: url(./images/mobile/image-interactive.jpg) no-repeat center /cover;
+    height: 225px;
+    width: 325px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+main h3 {
+
+    font-family: 'Josefin Sans', sans-serif; 
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 200;
+    margin-top: -70px;
+    color: white;
+    width: 140px;
+    margin-left: 42px;
+    text-align: left;
+    font-size: 25px;
+    font-weight: 300;
+    border: none;
+}
+
+.deep {
+
+    background: url(./images/mobile/image-deep-earth.jpg)no-repeat center/cover;
+    margin-top: 40px;
+}
+.night{
+
+    margin-top: 22px;
+    -webkit-box-shadow: inset 50px 0px 50px 13px rgba(0,0,0,0.65); 
+    box-shadow: inset 50px 0px 50px 13px rgba(0,0,0,0.65);
+   
+    background: url(./images/mobile/image-night-arcade.jpg)no-repeat center/cover;
+}
+.soccer {
+
+    margin-top: 22px;
+    background: url(./images/mobile/image-soccer-team.jpg)no-repeat center/cover;
+}
+.grid {
+
+    margin-top: 22px;
+    background: url(./images/mobile/image-grid.jpg)no-repeat center/cover;
+}
+.vr {
+
+    margin-top: 22px;
+    background: url(./images/mobile/image-from-above.jpg)no-repeat center/cover;
+}
+.pocket {
+
+    margin-top: 22px;
+    background: url(./images/mobile/image-pocket-borealis.jpg)no-repeat center/cover;
+}
+.curiosity {
+
+    margin-top: 22px;
+    background: url(./images/mobile/image-curiosity.jpg)no-repeat center/cover;
+}
+.fisheye {
+
+    margin-top: 22px;
+    background: url(./images/mobile/image-fisheye.jpg)no-repeat center/cover;
+}
+
+footer {
+
+    background-color: black;
+    margin-top: 160px;
+    color: white;
+    font-family: 'Alata', sans-serif;
+    font-size: 15px;
+    text-align: center;
+    font-weight: 300;
+}
+
+.logoF {
+
+    width: 150px;
+    padding-top: 40px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.reseaux {
+
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+    margin-top: 40px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.aboutF {
+
+    margin-top: 30px;
+}
+
+.careersF, .eventsF, .productsF, .supportF {
+
+    margin-top: 20px;
+}
+
+.aboutF:hover, .careersF:hover, .eventsF:hover, .productsF:hover, .supportF:hover {
+
+    cursor: pointer;
+}
+
+.fb:hover, .insta:hover, .twitter:hover, .pinterest:hover {
+
+    cursor: pointer;
+}
+
+.rights {
+
+    margin-top: 20px;
+    color: hsl(0, 0%, 55%);
+    font-size: 13px;
+}
+
+.attribution { 
+    
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+
+.attribution a { 
+    
+    color: hsl(0, 0%, 55%); 
+}
+
+@media (max-width:999px) {
+
+    .iconMenu {
+
+        position: relative;
+        margin-left: auto;
+        margin-right: 40px;
+        margin-top: -25px;
+        border: none;
+        height: 20px;
+        width: 25px;
+    }
+    
+    .menu {
+    
+        position: relative;
+        background-color: black;
+        color: white;
+        height: 650px;
+    }
+    
+    .logoM {
+    
+        padding-top: 30px;
+        padding-left: 20px;
+        width: 170px;
+    }
+    
+    .closeMenu {
+    
+        position: relative;
+        margin-left: auto;
+        margin-right: 40px;
+        margin-top: -25px;
+        border: none;
+        height: 20px;
+        width: 20px;
+    }
+    
+    .about, .careers, .events, .products, .support {
+    
+        font-family: 'Josefin Sans', sans-serif;
+        text-transform:uppercase;
+        font-size: 25px;
+        font-weight: 300;
+        margin-left: 20px;
+        margin-top: 25px;
+    }
+    
+    .about {
+    
+        margin-top: 150px;
+    }
+    
+    .hidden {
+    
+        display: none;
+    }   
+    .deep, .night, .soccer, .grid, .vr, .pocket, .curiosity, .fisheye {
+
+        width: 325px;
+        height: 120px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+    
+    .deep:hover, .night:hover, .soccer:hover, .grid:hover, .vr:hover, .pocket:hover, .curiosity:hover, .fisheye:hover {
+    
+        transform:scale(1.1);
+    }
+    main {
+
+        position: relative;
+        width: 375px;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    button {
+
+        position: absolute;
+        z-index: 100;
+        margin-top: 1190px;
+        margin-left: -80px;
+        font-family: 'Josefin Sans', sans-serif; 
+        text-transform: uppercase;
+        border: 1px solid black;
+        background-color: white;
+        text-align: center;
+        font-weight: bold;
+        height: 40px;
+        width: 158px;
+        font-size: 16px;
+    }
+
+    button:hover {
+
+        cursor: pointer;
+    }
+}
+
+@media (min-width:1000px) {
+
+    .iconMenu, .logoM, .closeMenu {
+
+        display: none;
+    }
+
+    body {
+
+        overflow-x:hidden;
+    }
+
+    header {
+
+        background: url(./images/desktop/image-hero.jpg)no-repeat center /cover;
+        
+    }
+
+    .logo {
+
+        padding-top: 60px;
+        padding-left: 70px;
+        width: 250px;
+    }
+
+    .menu {
+        
+        
+        font-family: 'Josefin Sans', sans-serif;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 500px;
+        height: auto;
+        margin-right: 50px;
+        margin-left: auto;
+        margin-top: -580px;
+        margin-bottom: 230px;
+        
+    }
+
+    .about, .careers, .events, .products, .support {
+
+        margin-left: 50px;
+        color: white;
+        font-weight: 700;
+    }    
+
+    .about:hover, .careers:hover, .events:hover, .products:hover, .support:hover {
+
+        cursor: pointer;
+    }
+
+    .casqueVr {
+
+        margin-top: 650px;
+        position: relative;
+        background: url(./images/desktop/image-interactive.jpg) no-repeat center /cover;
+        height: 500px;
+        width: 730px;
+        margin-left: 0px;
+    }
+
+    h1 {
+
+        width: 750px;
+        height: 300px;
+        margin-left: 70px;
+        margin-right: auto;
+        margin-top: 130px;
+        font-size: 71px;
+        padding: 40px 200px 40px 40px;
+    }
+    
+    .card {
+
+        background-color: white;
+        position: relative;
+        margin-top:-320px;
+        margin-left: 0px;
+        padding-top: 30px;
+        width: 550px;
+        height: 400px;
+        text-align: left;
+        margin-left:450px;
+    }
+
+    h2 {
+
+        width: 400px;
+        font-size: 45px;
+        margin-left: 100px;
+        margin-top: 80px;
+    }
+
+    p {
+
+        margin-left: 100px;
+        width: 450px;
+        line-height: 25px;
+        margin-top: 30px;
+    }
+
+    .crea {
+
+        width: 730px;
+        margin-left:0px ;
+    }
+
+    .deepT {
+
+        margin-top: 22px;
+        padding-right: 200px;
+        padding-top: 380px;
+        padding-left: 30px;
+        background: url(./images/desktop/image-deep-earth.jpg)no-repeat center/cover;
+    }
+
+    .nightT{
+    
+        margin-top: 22px;
+        padding-right: 200px;
+        padding-top: 380px;
+        padding-left: 30px;
+        -webkit-box-shadow: inset 0px -50px 50px -2px rgba(0,0,0,0.65); 
+        box-shadow: inset 0px -50px 50px -2px rgba(0,0,0,0.65);
+        background: url(./images/desktop/image-night-arcade.jpg)no-repeat center/cover;
+    }
+    .soccerT {
+    
+        margin-top: 22px;
+        padding-right: 100px;
+        padding-top: 380px;
+        padding-left: 30px;
+        -webkit-box-shadow: inset 0px -50px 50px -2px rgba(0,0,0,0.65); 
+        box-shadow: inset 0px -50px 50px -2px rgba(0,0,0,0.65);
+        background: url(./images/desktop/image-soccer-team.jpg)no-repeat center/cover;
+    }
+
+    .gridT {
+    
+        margin-top: 22px;
+        padding-right: 200px;
+        padding-top: 380px;
+        padding-left: 30px;
+        background: url(./images/desktop/image-grid.jpg)no-repeat center/cover;
+    }
+
+    .vrT {
+    
+        margin-top: 22px;
+        padding-right: 70px;
+        padding-top: 380px;
+        padding-left: 30px;
+        -webkit-box-shadow: inset 0px -50px 50px -2px rgba(0,0,0,0.65); 
+        box-shadow: inset 0px -50px 50px -2px rgba(0,0,0,0.65);
+        background: url(./images/desktop/image-from-above.jpg)no-repeat center/cover;
+    }
+
+    .pocketT {
+    
+        margin-top: 22px;
+        padding-right: 200px;
+        padding-top: 380px;
+        padding-left: 30px;
+        background: url(./images/desktop/image-pocket-borealis.jpg)no-repeat center/cover;
+    }
+
+    .curiosityT {
+    
+        margin-top: 22px;
+        padding-right: 200px;
+        padding-top: 380px;
+        padding-left: 30px;
+        background: url(./images/desktop/image-curiosity.jpg)no-repeat center/cover;
+    }
+
+    .fisheyeT {
+    
+        margin-top: 22px;
+        padding-right: 100px;
+        padding-top: 380px;
+        padding-left: 30px;
+        background: url(./images/desktop/image-fisheye.jpg)no-repeat center/cover;
+    }
+
+    .deepT, .nightT, .soccerT, .gridT, .vrT, .pocketT, .curiosityT, .fisheyeT { 
+
+        width: 255px;
+        height: 450px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+        -webkit-transition: all 0.2s;
+        -moz-transition: all 0.2s;
+        -ms-transition: all 0.2s;
+        -o-transition: all 0.2s;
+        transition: all 0.2s;
+    }
+    
+    button {
+
+        height: 40px;
+        width: 158px;
+        z-index: 100;
+        font-family: 'Josefin Sans', sans-serif; 
+        text-transform: uppercase;
+        border: 1px solid black;
+        background-color: white;
+        text-align: center;
+        font-weight: bold;
+        font-size: 16px;
+       margin-top: 100px;
+    }
+
+    button:hover {
+
+        cursor: pointer;
+    }
+
+    .container {
+
+        min-width: 1024px;
+        max-width: 1440px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 0px;
+    }
+
+    .img {
+
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        min-width: 1024px;
+        max-width: 1200px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+    }
+
+    
+}
+
+@media (min-width:1100px) {
+        
+    
+    .deepT:hover, .nightT:hover, .soccerT:hover, .gridT:hover, .vrT:hover, .pocketT:hover, .curiosityT:hover, .fisheyeT:hover {
+    
+        transform:scale(1.05);
+        cursor: pointer;
+    }}
+
+    @media (min-width:1150px) {
+
+        .card {
+
+            margin-left:570px;
+        }
+
+        .casqueVr {
+
+            margin-left: 30px;
+            margin-right: 500px;
+            margin-top: 650px;
+        }
+        footer {
+
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-top: 160px;
+            height: 150px;
+        
+        }
+        
+        .logoF {
+        
+            
+            width: 150px;
+            padding-top: 30px;
+            position: relative;
+            margin-left: 150px;
+            margin-right: auto;
+        }
+        
+        .reseaux {
+            
+            display: flex;
+            justify-content: space-around;
+            width: 180px;
+            margin-top: 20px;
+            position: relative;
+            margin-left: auto;
+            margin-right: auto;
+            margin-left: 365px;
+        }
+    
+        .foot {
+            margin-top: 30px;
+            
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            padding-bottom: 30px;
+            width:400px;
+            margin-left: 135px;
+        }
+        
+        .aboutF {
+        
+            margin-top: 0px;
+        }
+        
+        .careersF, .eventsF, .productsF, .supportF {
+        
+            margin-top: 0px;
+        }
+        
+        .rights {
+            
+            margin-top: 20px;
+            margin-left: 300px;
+        }
+    
+        .attribution {
+            margin-left: 210px;
+        }
+        
+     }
+
+     @media (min-width:1300px) {
+
+        .card {
+
+            margin-left:700px;
+        }
+
+        .casqueVr {
+
+            margin-left: 140px;
+            margin-right: 500px;
+            margin-top: 700px;
+        }
+     }
+
+     
